@@ -321,12 +321,13 @@ var scale = 320, to_scale = 320, srat = 0, to_srat = 0;
     ctx.font = "normal 15px '仿宋'";
     ctx.fillStyle = "rgb(255,255,255)";  
     ctx.fillText("作者: Charles, 微信公众号: Charles的皮卡丘", 20, 30); 
-    ctx.fillText("操作指南: 鼠标点击对应的星星即可显示星星信息", 20, 50); 
-    ctx.fillText("操作指南: 按Z键放大", 20, 70); 
-    ctx.fillText("操作指南: 按空格键依次查看各个星座", 20, 90); 
-    ctx.fillText("操作指南: 按←↑↓→键旋转球体", 20, 110); 
-    ctx.fillText("操作指南: 按Q键切换显示的模式", 20, 130); 
-    ctx.fillText("操作指南: 按S键开启或关闭星座里的星星连线", 20, 150); 
+    ctx.fillText("操作指南:", 20, 50); 
+    ctx.fillText("1. 鼠标点击对应的星星即可显示星星信息", 20, 70); 
+    ctx.fillText("2. 按Z键放大", 20, 90); 
+    ctx.fillText("3. 按空格键依次查看各个星座", 20, 110); 
+    ctx.fillText("4. 按←↑↓→键旋转球体", 20, 130); 
+    ctx.fillText("5. 按Q键切换显示的模式", 20, 150); 
+    ctx.fillText("6. 按S键开启或关闭星座里的星星连线", 20, 170); 
     var num_to_starenname = {};
     for (var item of constellation_name_en) {
         num_to_starenname[item.num] = item.name
