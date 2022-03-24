@@ -8,7 +8,7 @@ Website: https://charlespikachu.github.io/constellation/
 
 # Constellation
 ```
-Constellation: Beautiful starry sky written by js.
+Constellation: Beautiful starry sky written in js.
 You can star this repository to keep track of the project if it's helpful for you, thank you for your support.
 ```
 
